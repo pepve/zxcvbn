@@ -1,8 +1,9 @@
 {
-    "name": "zxcvbn",
+    "name": "zxcvbn-nl",
     "description": "realistic password strength estimation",
-    "main": "dist/zxcvbn.js",
+    "main": "dist/zxcvbn-nl.js",
     "keywords": [
+        "dutch",
         "password",
         "passphrase",
         "strength",
