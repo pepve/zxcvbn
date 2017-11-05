@@ -2,6 +2,8 @@
 
 This is a version of the `zxcvbn` password strength estimator adjusted for the Dutch language. Dutch names and a word ranking based on Dutch Wikipedia were added. The English dictionaries were maintained but halved in size. So that each language contributes about 50% of the whole. This was done because password cracking may still be based on English dictionaries, and English language usage is pretty high among Dutch speakers anyway.
 
+TypeScript declarations (copied from DefinitelyTyped) are also directly included.
+
 # Original README
 
 ```

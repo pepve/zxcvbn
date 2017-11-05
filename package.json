@@ -5,6 +5,7 @@
   "author": "Dan Wheeler",
   "license": "MIT",
   "main": "lib/main.js",
+  "types": "main.d.ts",
   "repository": "pepve/zxcvbn-nl",
   "scripts": {
     "test": "coffeetape test/*.coffee | faucet",
