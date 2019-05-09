@@ -89,10 +89,10 @@ feedback =
           'This is a very common password'
       else if match.guesses_log10 <= 4
         'This is similar to a commonly used password'
-    else if match.dictionary_name == 'english_wikipedia'
+    else if match.dictionary_name in ['dutch_wikipedia', 'english_wikipedia']
       if is_sole_match
         'A word by itself is easy to guess'
-    else if match.dictionary_name in ['surnames', 'male_names', 'female_names']
+    else if match.dictionary_name in ['dutch_surnames', 'dutch_male_names', 'dutch_female_names','surnames', 'male_names', 'female_names']
       if is_sole_match
         'Names and surnames by themselves are easy to guess'
       else
